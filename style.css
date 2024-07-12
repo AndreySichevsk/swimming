@@ -65,6 +65,7 @@ h1 {
 }
 
 .nav_cost{
+    margin: auto;
     font-size: 30px;
     color: #575757;
 
@@ -98,12 +99,14 @@ h1 {
     width: 100%;
     min-height: 300px;
     background-color: #fff;
+    padding-bottom: 40px;
 }
 
 h2 {
-    margin-top: 15px;
-    font-size: 45px;
-    color: black;
+    text-transform: uppercase;
+    margin: 40px 0 0 20px;
+    font-size: 40px;
+    color: #575757;
 }
 
 .speakers {
@@ -134,15 +137,16 @@ h2 {
 
 .speaker_name {
     margin: 20px 0;
-    font-weight: bold;
+    font-weight: 500;
     font-size: 25px;
-    color: black;
+    color: #000;
 }
 
 .center_block_target{
     display: flex;
     width: 100%;
     min-height: 100px;
+    padding: 40px 20px;
     background-color: #b8dede;
 }
 
@@ -154,7 +158,12 @@ h2 {
 }
 
 .target_block_right{
+    margin: auto;
     padding: 20px;
+}
+
+.img_ms_target{
+    width: 85%;
 }
 
 .target_header{
